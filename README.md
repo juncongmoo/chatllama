@@ -1,4 +1,6 @@
-# **Open source implementation for LLaMA-based ChatGPT. 15x faster training process than ChatGPT (wip)**
+# ChatLLaMA
+
+> 📢 Open source implementation for LLaMA-based ChatGPT runnable in a single GPU. 15x faster training process than `ChatGPT`
 
 Meta has recently released LLaMA, a collection of foundational large language models ranging from 7 to 65 billion parameters.
 LLaMA is creating a lot of excitement because it is smaller than GPT-3 but has better performance. For example, LLaMA's 13B architecture outperforms GPT-3 despite being 10 times smaller. This new collection of fundamental models opens the door to faster inference performance and chatGPT-like real-time assistants, while being cost-effective and running on a single GPU.
@@ -12,12 +14,17 @@ The good news is that we introduce `ChatLLaMA`, the first open source implementa
 - ChatLLaMA has built-in support for DeepSpeed ZERO to speedup the fine-tuning process.
 - The library also supports all LLaMA model architectures (7B, 13B, 33B, 65B), so that you can fine-tune the model according to your preferences for training time and inference performance.
 
-If you like the project, please show your support by [leaving a star ⭐](https://github.com/nebuly-ai/nebullvm/stargazers).
-
 
 <img width="1032" alt="Screen Shot 2023-02-26 at 10 56 13 PM" src="https://user-images.githubusercontent.com/83510798/221439813-5972d029-dae5-4561-ab3d-5a55fa5cde09.png">
 
 Image from [OpenAI’s blog](https://openai.com/blog/chatgpt).
+
+
+# Installation
+
+```
+pip install chatllama
+```
 
 
 # Get started with ChatLLaMA

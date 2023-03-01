@@ -51,3 +51,5 @@ Note that you should provide Meta's original weights and your custom dataset bef
 ```python
 python generate_dataset.py
 ```
+>  The code is originally from [nebuly-ai](https://github.com/nebuly-ai/nebullvm/tree/main/apps/accelerate/chatllama) with some changes. More changes will follow up soon. And the original license link is [here](https://github.com/nebuly-ai/nebullvm/blob/main/LICENSE).
+

@@ -2,6 +2,8 @@
 
 > 📢 Open source implementation for LLaMA-based ChatGPT runnable in a single GPU. 15x faster training process than `ChatGPT`
 
+Check [`pyllama`](https://github.com/juncongmoo/pyllama) for `LLaMA` installation and `single GPU inference` setup.
+
 Meta has recently released LLaMA, a collection of foundational large language models ranging from 7 to 65 billion parameters.
 LLaMA is creating a lot of excitement because it is smaller than GPT-3 but has better performance. For example, LLaMA's 13B architecture outperforms GPT-3 despite being 10 times smaller. This new collection of fundamental models opens the door to faster inference performance and chatGPT-like real-time assistants, while being cost-effective and running on a single GPU.
 
